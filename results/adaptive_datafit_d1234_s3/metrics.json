@@ -1,0 +1,39 @@
+{
+  "adam_loss_max_after_1000": 6695.8984375,
+  "adam_loss_spikes": 1081,
+  "adam_steps_done": 50000,
+  "adaptive_skipped": {
+    "data": 0,
+    "res_data": 0
+  },
+  "adaptive_terms": [
+    "data",
+    "res_data"
+  ],
+  "adaptive_updates": 5000,
+  "dead_units_T": 0,
+  "dead_units_T_frac": 0.0,
+  "final_loss_data": 7.152422210054965e-09,
+  "final_loss_l2": 7.283605896191148e-08,
+  "final_loss_res_colloc": 0.006561456248164177,
+  "final_loss_res_data": 1.3322083880495939e-08,
+  "final_loss_total_grid": 0.00925434660166502,
+  "final_loss_tv": 3.9601812318323937e-07,
+  "lambda_final_data": 284474.433071618,
+  "lambda_final_res_data": 49372.18242085923,
+  "lambda_final_tv": 1.0,
+  "lbfgs_closure_calls": 2585,
+  "lbfgs_func_evals": 2585,
+  "lbfgs_n_iter": 2391,
+  "mae_V": 0.019490096000262667,
+  "maxerr_T": 0.035780559401351275,
+  "maxerr_V": 0.40361329487391884,
+  "nan_at_step": null,
+  "nan_in_prediction": false,
+  "nmae_V": 1.9490096000262667,
+  "nrmse_T": 0.47606207800331174,
+  "rmse_T": 0.004760620780033117,
+  "wall_adam_s": 90.57,
+  "wall_lbfgs_s": 14.4,
+  "wall_time_s": 105.56
+}

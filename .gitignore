@@ -1,0 +1,25 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+# editors, OS
+.vscode/
+.idea/
+.DS_Store
+.env
+.env.*
+# tooling and private files
+.claude/
+CLAUDE.md
+PUBLIC_RELEASE_PLAN.md
+*.plan.md
+# run scratch
+*.log
+results/smoke*/
+results/*/weights*
+*.pt
+*.pth
+report_assets/figure_stubs.tex

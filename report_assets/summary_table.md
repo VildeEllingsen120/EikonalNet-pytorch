@@ -1,0 +1,25 @@
+Mean (min to max) over data seed 1234, init seeds 0 to 4. Paper Table 1 (0 % noise, PINN): nRMSE_T 0.49, nMAE_V 3.56.
+
+| variant | nRMSE_T [%] | nMAE_V [%] | max err T | max err V | failed seeds |
+|---|---|---|---|---|---|
+| baseline | 0.70 (0.42 to 0.84) | 5.78 (2.56 to 9.74) | 0.058 (0.035 to 0.073) | 0.65 (0.42 to 0.95) | none |
+| adaptive (spec: data, res_data, tv) | 2.32 (1.71 to 3.12) | 15.44 (13.70 to 16.92) | 0.217 (0.119 to 0.311) | 0.42 (0.36 to 0.46) | none |
+| adaptive_datafit (paper: data, res_data) | 0.53 (0.20 to 0.89) | 2.75 (1.95 to 3.87) | 0.035 (0.015 to 0.049) | 0.42 (0.37 to 0.48) | none |
+| rar | 2.81 (0.75 to 6.30) | 10.55 (6.98 to 14.81) | 0.162 (0.056 to 0.297) | 0.78 (0.50 to 1.18) | none |
+| relu | 1.40 (0.86 to 2.33) | 6.74 (4.48 to 8.97) | 0.127 (0.059 to 0.298) | 0.30 (0.26 to 0.33) | none |
+| residual paper (ablation) | 2.40 (1.23 to 3.41) | 10.33 (7.31 to 11.55) | 0.188 (0.128 to 0.239) | 0.97 (0.55 to 1.32) | none |
+| adaptive+rar | 0.62 (0.26 to 0.93) | 3.42 (1.31 to 5.66) | 0.049 (0.021 to 0.070) | 0.38 (0.31 to 0.45) | none |
+| adaptive+relu | 0.66 (0.54 to 0.89) | 3.16 (1.78 to 4.23) | 0.062 (0.048 to 0.078) | 0.45 (0.41 to 0.50) | none |
+| rar+relu | 1.92 (0.93 to 3.06) | 9.22 (6.90 to 12.36) | 0.162 (0.037 to 0.320) | 0.33 (0.30 to 0.37) | none |
+| adaptive+rar+relu | 0.70 (0.61 to 0.83) | 2.60 (2.25 to 3.13) | 0.075 (0.058 to 0.093) | 0.46 (0.43 to 0.47) | none |
+| baseline, noise 1 % (indicative) | 1.33 (0.58 to 2.91) | 9.42 (4.40 to 17.17) | 0.072 (0.030 to 0.138) | 0.67 (0.48 to 0.98) | none |
+| adaptive+rar+relu, noise 1 % (indicative) | 1.11 (0.76 to 1.58) | 5.37 (2.75 to 7.09) | 0.119 (0.063 to 0.211) | 0.45 (0.42 to 0.48) | none |
+
+Hard layout (data seed 2), cells nRMSE_T / nMAE_V [%]:
+
+| variant | init 1234 | init 1 | init 2 |
+|---|---|---|---|
+| baseline | 4.96 / 18.98 | 0.84 / 4.54 | 4.95 / 16.86 |
+| adaptive (paper) | 0.47 / 2.12 | 0.63 / 3.78 | 0.33 / 2.39 |
+| relu | 1.64 / 5.19 | 1.08 / 5.99 | 1.66 / 9.75 |
+| adaptive+rar+relu | 0.51 / 2.40 | 1.15 / 7.55 | 0.59 / 1.77 |

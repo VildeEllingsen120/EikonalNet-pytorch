@@ -1,0 +1,9 @@
+# Versions used for every result in RESULTS.md (recorded in results/*/config.json:
+# python 3.14.3, torch 2.11.0, numpy 2.4.4; scipy and matplotlib from the same environment).
+# Python 3.10+ should work; only these pins are verified.
+torch==2.11.0
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.8
+# development (tests)
+pytest==9.2.0

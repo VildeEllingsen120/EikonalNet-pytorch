@@ -1,0 +1,23 @@
+{
+  "adam_steps_done": 50000,
+  "final_loss_data": 4.796398116013734e-06,
+  "final_loss_l2": 1.081265637026263e-07,
+  "final_loss_res_colloc": 2.510870672267629e-06,
+  "final_loss_res_data": 2.601494486498268e-07,
+  "final_loss_total_grid": 8.104989319690503e-06,
+  "final_loss_tv": 4.294444977404055e-07,
+  "lbfgs_closure_calls": 7831,
+  "lbfgs_func_evals": 7831,
+  "lbfgs_n_iter": 7137,
+  "mae_V": 0.04882586255754743,
+  "maxerr_T": 0.03492866243634907,
+  "maxerr_V": 0.47013676166534424,
+  "nan_at_step": null,
+  "nan_in_prediction": false,
+  "nmae_V": 4.882586255754743,
+  "nrmse_T": 0.42264378470553793,
+  "rmse_T": 0.004226437847055379,
+  "wall_adam_s": 70.98,
+  "wall_lbfgs_s": 31.21,
+  "wall_time_s": 102.71
+}

@@ -1,0 +1,29 @@
+{
+  "1234": {
+    "n_region_V1 (r0 < 0.7 r1)": 16,
+    "n_region_V1.43 (r0 >= 0.7 r1)": 34,
+    "dist_source_(0,0)_to_nearest_point": 0.16189963922422637,
+    "dist_source_(1,1)_to_nearest_point": 0.18636003241199844,
+    "n_within_0.05_of_ridge": 5,
+    "n_within_0.10_of_ridge": 9,
+    "min_dist_to_ridge": 0.023948124333043323
+  },
+  "1": {
+    "n_region_V1 (r0 < 0.7 r1)": 15,
+    "n_region_V1.43 (r0 >= 0.7 r1)": 35,
+    "dist_source_(0,0)_to_nearest_point": 0.138258339013564,
+    "dist_source_(1,1)_to_nearest_point": 0.14363925042854245,
+    "n_within_0.05_of_ridge": 5,
+    "n_within_0.10_of_ridge": 8,
+    "min_dist_to_ridge": 0.005666028173173795
+  },
+  "2": {
+    "n_region_V1 (r0 < 0.7 r1)": 13,
+    "n_region_V1.43 (r0 >= 0.7 r1)": 37,
+    "dist_source_(0,0)_to_nearest_point": 0.052792160185937284,
+    "dist_source_(1,1)_to_nearest_point": 0.0906230816098829,
+    "n_within_0.05_of_ridge": 6,
+    "n_within_0.10_of_ridge": 13,
+    "min_dist_to_ridge": 0.015892115996686267
+  }
+}
